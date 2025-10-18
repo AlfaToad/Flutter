@@ -163,7 +163,7 @@ class _ActionChip extends StatelessWidget {
       avatar: Icon(icon, size: 18),
       label: Text(label),
       onPressed: () {},
-      backgroundColor: AppColors.primary.withOpacity(0.1),
+      backgroundColor: AppColors.primary.withAlpha((255 * 0.1).round()),
       labelStyle: TextStyle(color: AppColors.primary),
     );
   }

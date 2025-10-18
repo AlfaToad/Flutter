@@ -98,6 +98,7 @@ class DashboardScreen extends StatelessWidget {
 
   void _navigateToRuleBuilder(BuildContext context) {
     // Навигация к конструктору правил
+    Navigator.pushNamed(context, '/rule-builder');
   }
 }
 
